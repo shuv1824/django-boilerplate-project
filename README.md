@@ -37,8 +37,14 @@ virtual environment run:
 ```shell script
 $ pip install -r requirements.txt
 ```
+Then create a directory in the `root` of the project called `static`.
+
 The project is named `demo`. So you can rename it with:
 ```shell script
 $ python manage.py rename <your-project-name>
+```
+Finally run the migrations
+```shell script
+$ python manage.py migrate
 ```
 Your fresh Django 3 project is ready with some extra goodies. 
